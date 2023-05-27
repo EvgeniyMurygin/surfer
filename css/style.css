@@ -109,7 +109,7 @@ body {
 }
 
 .logo__img {
-  background-image: url('../images/logo.svg');
+  background-image: url('../images/logo/logo.svg');
   width: 47px;
   height: 63px;
   margin-right: 185px;
@@ -175,7 +175,7 @@ body {
 }
 
 .about {
-  background-image: url(../images/school-bg.jpg);
+  background-image: url(../images/background-image/school-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 189px 0 199px;
@@ -224,15 +224,15 @@ body {
 }
 
 .school__item--residence::before {
-  background-image: url('../images/residence-icon.svg');
+  background-image: url('../images/icon/residence-icon.svg');
 }
 
 .school__item--flight::before {
-  background-image: url('../images/flight-icon.svg');
+  background-image: url('../images/icon/flight-icon.svg');
 }
 
 .school__item--training::before {
-  background-image: url('../images/training-icon.svg');
+  background-image: url('../images/icon/training-icon.svg');
 }
 
 .school__item-title {
@@ -263,7 +263,7 @@ body {
 }
 
 .methods__info-item {
-  background-image: url('../images/pict.1.svg');
+  background-image: url('../images/icon/pict.1.svg');
   background-repeat: no-repeat;
   background-size: 100%;
   margin-top: 10px;
@@ -338,7 +338,7 @@ body {
 }
 
 .gallery {
-  background-image: url(../images/school-bg.jpg);
+  background-image: url(../images/background-image/school-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 0 0 198px;
@@ -371,7 +371,6 @@ body {
 }
 
 .gallery__item {
-  /* margin-bottom: 40px; */
   position: relative;
 }
 
@@ -444,7 +443,7 @@ body {
 }
 
 .gallery__video-link {
-  background-image: url(../images/play.svg);
+  background-image: url(../images/icon/play.svg);
   width: 75px;
   height: 88px;
   position: absolute;
@@ -529,7 +528,7 @@ body {
 }
 
 .slick-dots li {
-  margin: 0 8px 0;
+  margin: 0 8px 15px;
 }
 
 .slick-dots button {
@@ -549,7 +548,7 @@ body {
 }
 
 .team {
-  background-image: url(../images/about-bg.jpg);
+  background-image: url(../images/background-image/about-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 0 0 200px;
@@ -581,7 +580,7 @@ body {
 }
 
 .services {
-  background-image: url(../images/school-bg.jpg);
+  background-image: url(../images/background-image/school-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 200px 0 200px;
@@ -660,7 +659,7 @@ ul.services__item {
 
 .coast__map::after {
   content: "";
-  background-image: url('../images/marker.svg');
+  background-image: url('../images/icon/marker.svg');
   position: absolute;
   width: 56.79px;
   height: 70px;
@@ -668,7 +667,7 @@ ul.services__item {
 }
 
 .connection {
-  background-image: url(../images/school-bg.jpg);
+  background-image: url(../images/background-image/school-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 0 0 200px;
@@ -744,7 +743,6 @@ ul.services__item {
 }
 
 .footer__top {
-  /* margin-bottom: 200px; */
   margin: 100px 0;
 }
 
@@ -778,7 +776,7 @@ ul.services__item {
 }
 
 .footer__logo-img {
-  background-image: url('../images/logo.svg');
+  background-image: url('../images/logo/logo.svg');
   width: 47px;
   height: 63px;
 }
